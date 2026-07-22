@@ -52,7 +52,7 @@ hyperparameters = {
     'min_samples_leaf': [5, 6],
     'learning_rate': [0.01, 0.02],
     'max_features': [0.8, 0.9],
-    'loss': ['huber', 'ls', 'lad']
+    'loss': ['huber', 'squared_error', 'absolute_error']
 }
 
 grid = GridSearchCV(model, param_grid=hyperparameters, n_jobs=4)

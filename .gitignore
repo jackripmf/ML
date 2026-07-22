@@ -1,0 +1,38 @@
+# Идея
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Виртуальное окружение
+venv/
+env/
+.env
+
+# Модели ( веса большие, хранить в git не стоит)
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.onnx
+
+# Данные ( CSV-шки могут быть большими)
+*.csv
+*.tsv
+*.parquet
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
